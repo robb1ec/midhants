@@ -1865,8 +1865,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@192.168.50.3</username>
-    <description>/api/kea/dhcpv4/set made changes</description>
-    <time>1736703808.8307</time>
+    <description>/api/kea/dhcpv4/add_reservation/ made changes</description>
+    <time>1736703871.0303</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -2908,7 +2908,15 @@ VN</content>
             <description>VLAN01 Fuels LAN</description>
           </subnet4>
         </subnets>
-        <reservations/>
+        <reservations>
+          <reservation uuid="390ba244-5c03-4eeb-b99c-a859a2bc739a">
+            <subnet>cdd4da5e-b211-46b9-9a5c-2075e12fbfbc</subnet>
+            <ip_address>192.168.50.10</ip_address>
+            <hw_address>d0:c5:d3:b3:16:d0</hw_address>
+            <hostname>keithtrollen-pc</hostname>
+            <description>Keith Trollen PC - Sage (Main office)</description>
+          </reservation>
+        </reservations>
         <ha_peers>
           <peer uuid="e0ac8224-1c48-4451-ae5a-31335b50bd9b">
             <name>KeaDHCPHA</name>
