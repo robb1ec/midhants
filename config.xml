@@ -1866,7 +1866,7 @@ luZwE=&#xD;
   <revision>
     <username>root@192.168.50.3</username>
     <description>/api/kea/dhcpv4/add_reservation/ made changes</description>
-    <time>1736707053.0617</time>
+    <time>1736707087.7727</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -3090,6 +3090,13 @@ VN</content>
             <hw_address>74:83:c2:33:62:7a</hw_address>
             <hostname>wap01</hostname>
             <description>WAP01 (Farmhouse office)</description>
+          </reservation>
+          <reservation uuid="bac229be-15db-45b8-a9e8-3e453465e5a9">
+            <subnet>cdd4da5e-b211-46b9-9a5c-2075e12fbfbc</subnet>
+            <ip_address>192.168.50.99</ip_address>
+            <hw_address>d0:21:f9:6b:ae:89</hw_address>
+            <hostname>Unifi</hostname>
+            <description>Unifi (CloudKey Gen 2 Plus)</description>
           </reservation>
         </reservations>
         <ha_peers>
