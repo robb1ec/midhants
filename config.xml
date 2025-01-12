@@ -1865,8 +1865,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@192.168.50.3</username>
-    <description>/api/kea/dhcpv4/add_subnet/ made changes</description>
-    <time>1736703635.6455</time>
+    <description>/api/kea/dhcpv4/add_peer/ made changes</description>
+    <time>1736703710.5024</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -2909,7 +2909,13 @@ VN</content>
           </subnet4>
         </subnets>
         <reservations/>
-        <ha_peers/>
+        <ha_peers>
+          <peer uuid="e0ac8224-1c48-4451-ae5a-31335b50bd9b">
+            <name>KeaDHCPHA</name>
+            <role>primary</role>
+            <url>https://10.10.10.254:9001/</url>
+          </peer>
+        </ha_peers>
       </dhcp4>
     </Kea>
     <wireguard>
