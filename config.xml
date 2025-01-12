@@ -1866,7 +1866,7 @@ luZwE=&#xD;
   <revision>
     <username>root@192.168.50.3</username>
     <description>/api/kea/dhcpv4/add_reservation/ made changes</description>
-    <time>1736703871.0303</time>
+    <time>1736703964.8216</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -2915,6 +2915,13 @@ VN</content>
             <hw_address>d0:c5:d3:b3:16:d0</hw_address>
             <hostname>keithtrollen-pc</hostname>
             <description>Keith Trollen PC - Sage (Main office)</description>
+          </reservation>
+          <reservation uuid="35745967-58d6-41b2-a0ec-20e50a64ec1e">
+            <subnet>cdd4da5e-b211-46b9-9a5c-2075e12fbfbc</subnet>
+            <ip_address>192.168.50.50</ip_address>
+            <hw_address>c0:6d:ed:1c:33:c7</hw_address>
+            <hostname>hikdvr</hostname>
+            <description>CCTV DVR</description>
           </reservation>
         </reservations>
         <ha_peers>
