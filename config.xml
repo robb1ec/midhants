@@ -1866,7 +1866,7 @@ luZwE=&#xD;
   <revision>
     <username>root@192.168.50.3</username>
     <description>/api/kea/dhcpv4/add_reservation/ made changes</description>
-    <time>1736706933.5889</time>
+    <time>1736706966.5979</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -3062,6 +3062,13 @@ VN</content>
             <hw_address>74:ac:b9:6c:fb:af</hw_address>
             <hostname>wap05</hostname>
             <description>WAP05 (Main office)</description>
+          </reservation>
+          <reservation uuid="625fa1ca-5137-4a90-af88-1a3b38fb5252">
+            <subnet>cdd4da5e-b211-46b9-9a5c-2075e12fbfbc</subnet>
+            <ip_address>192.168.50.95</ip_address>
+            <hw_address>18:e8:29:a0:56:08</hw_address>
+            <hostname>wap04</hostname>
+            <description>WAP04 (R Porter outdoor)</description>
           </reservation>
         </reservations>
         <ha_peers>
