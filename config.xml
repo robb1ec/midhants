@@ -615,7 +615,6 @@ luZwE=&#xD;
   </interfaces>
   <dhcpd>
     <lan>
-      <enable>1</enable>
       <defaultleasetime>3600</defaultleasetime>
       <gateway>192.168.50.1</gateway>
       <domain>midhantsbulkhau.local</domain>
@@ -1839,8 +1838,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@192.168.50.3</username>
-    <description>/api/kea/dhcpv4/set made changes</description>
-    <time>1736707241.4136</time>
+    <time>1736707360.4245</time>
+    <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
