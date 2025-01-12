@@ -1866,7 +1866,7 @@ luZwE=&#xD;
   <revision>
     <username>root@192.168.50.3</username>
     <description>/api/kea/dhcpv4/add_reservation/ made changes</description>
-    <time>1736706657.8005</time>
+    <time>1736706697.6459</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -3013,6 +3013,13 @@ VN</content>
             <hw_address>ac:8b:a9:6a:4e:4f</hw_address>
             <hostname>wbridge01</hostname>
             <description>Nano beam to Combine Shed</description>
+          </reservation>
+          <reservation uuid="de2839d0-16e6-4ba8-b03a-809b5c429a2f">
+            <subnet>cdd4da5e-b211-46b9-9a5c-2075e12fbfbc</subnet>
+            <ip_address>192.168.50.80</ip_address>
+            <hw_address>30:05:5c:a8:1e:31</hw_address>
+            <hostname>printer01</hostname>
+            <description>printer01 - Brother dcp9020cdw (Server room)</description>
           </reservation>
         </reservations>
         <ha_peers>
