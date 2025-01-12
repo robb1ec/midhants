@@ -1866,7 +1866,7 @@ luZwE=&#xD;
   <revision>
     <username>root@192.168.50.3</username>
     <description>/api/kea/dhcpv4/add_reservation/ made changes</description>
-    <time>1736706755.4086</time>
+    <time>1736706788.9155</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -3034,6 +3034,13 @@ VN</content>
             <hw_address>b4:22:00:63:dc:6c</hw_address>
             <hostname>printer03</hostname>
             <description>printer03 - Brother MFC L8650CDW (New Farm office)</description>
+          </reservation>
+          <reservation uuid="fb70198d-6bc7-42b4-b8c2-f65405ce23b4">
+            <subnet>cdd4da5e-b211-46b9-9a5c-2075e12fbfbc</subnet>
+            <ip_address>192.168.50.91</ip_address>
+            <hw_address>80:2a:a8:59:1e:40</hw_address>
+            <hostname>wap08</hostname>
+            <description>wap08 (Combine shed)</description>
           </reservation>
         </reservations>
         <ha_peers>
