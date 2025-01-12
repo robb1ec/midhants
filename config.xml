@@ -1865,7 +1865,7 @@ luZwE=&#xD;
   <revision>
     <username>root@192.168.50.3</username>
     <description>/api/core/hasync/set made changes</description>
-    <time>1736709631.7963</time>
+    <time>1736709638.973</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -3430,7 +3430,7 @@ VN</content>
     <synchronizetoip>10.10.50.253</synchronizetoip>
     <username>pfsync</username>
     <password>Rocogg133!</password>
-    <syncitems>aliases,authservers,captiveportal,certs,cron,dhcpd,dhcpdv6,dhcrelay,dnsforwarder,categories,ifgroups,lvtemplate,rules,schedules,suricata,ipsec,monit,nat,syslog,ntpd,ssh,openvpn,shaper,staticroutes,sysctl,dnsresolver,users,virtualip,webgui</syncitems>
+    <syncitems>aliases,authservers,captiveportal,certs,cron,dhcpd,dhcpdv6,dhcrelay,dnsforwarder,categories,ifgroups,lvtemplate,rules,schedules,suricata,ipsec,kea,monit,nat,syslog,ntpd,ssh,openvpn,shaper,staticroutes,sysctl,dnsresolver,users,virtualip,webgui</syncitems>
   </hasync>
   <vlans version="1.0.0">
     <vlan/>
