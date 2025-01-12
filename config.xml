@@ -1865,8 +1865,8 @@ luZwE=&#xD;
   </widgets>
   <revision>
     <username>root@192.168.50.3</username>
-    <description>/api/kea/dhcpv4/set made changes</description>
-    <time>1736702954.164</time>
+    <description>/api/kea/dhcpv4/add_subnet/ made changes</description>
+    <time>1736703635.6455</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -2888,7 +2888,26 @@ VN</content>
           <this_server_name/>
           <max_unacked_clients>2</max_unacked_clients>
         </ha>
-        <subnets/>
+        <subnets>
+          <subnet4 uuid="cdd4da5e-b211-46b9-9a5c-2075e12fbfbc">
+            <subnet>192.168.50.0/24</subnet>
+            <next_server/>
+            <option_data_autocollect>0</option_data_autocollect>
+            <option_data>
+              <domain_name_servers>192.168.50.2,192.168.50.3</domain_name_servers>
+              <domain_search/>
+              <routers>192.168.50.1</routers>
+              <static_routes/>
+              <domain_name>midhantsbulkhau.local</domain_name>
+              <ntp_servers>192.168.50.2,192.168.50.3</ntp_servers>
+              <time_servers>192.168.50.2,192.168.50.3</time_servers>
+              <tftp_server_name/>
+              <boot_file_name/>
+            </option_data>
+            <pools>192.168.50.100-192.168.50.199</pools>
+            <description>VLAN01 Fuels LAN</description>
+          </subnet4>
+        </subnets>
         <reservations/>
         <ha_peers/>
       </dhcp4>
