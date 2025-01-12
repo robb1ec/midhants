@@ -1838,9 +1838,9 @@ luZwE=&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1736692864.0459</time>
+    <username>root@192.168.50.3</username>
+    <description>/api/kea/dhcpv4/set made changes</description>
+    <time>1736707241.4136</time>
   </revision>
   <OPNsense>
     <Firewall>
@@ -2848,13 +2848,13 @@ VN</content>
       <dhcp4 version="1.0.2">
         <general>
           <enabled>0</enabled>
-          <interfaces/>
-          <valid_lifetime>4000</valid_lifetime>
+          <interfaces>lan</interfaces>
+          <valid_lifetime>3600</valid_lifetime>
           <fwrules>1</fwrules>
           <dhcp_socket_type>raw</dhcp_socket_type>
         </general>
         <ha>
-          <enabled>0</enabled>
+          <enabled>1</enabled>
           <this_server_name/>
           <max_unacked_clients>2</max_unacked_clients>
         </ha>
