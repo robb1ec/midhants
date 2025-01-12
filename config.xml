@@ -1864,9 +1864,9 @@ luZwE=&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>root@192.168.50.3</username>
-    <description>/diag_backup.php made changes</description>
-    <time>1721678346.9714</time>
+    <username>(root)</username>
+    <time>1736691450.6469</time>
+    <description>Enter CARP maintenance mode</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -3169,4 +3169,5 @@ VN</content>
   </wireless>
   <dhcpdv6/>
   <ifgroups version="1.0.0"/>
+  <virtualip_carp_maintenancemode>1</virtualip_carp_maintenancemode>
 </opnsense>
